@@ -1,0 +1,380 @@
+{
+  "profile": {
+    "name": "Mohanraj",
+    "email": "mohanraj.mm18@gmail.com",
+    "ageRange": "20-25",
+    "profession": "Student",
+    "education": "B.Tech Computer Science",
+    "interests": [
+      "Artificial Intelligence",
+      "Mobile App Development",
+      "Productivity Systems"
+    ],
+    "careerGoals": "Become a Senior AI Engineer & Full-Stack Architect",
+    "preferredLanguage": "Tanglish",
+    "preferredAIPersonality": "Friendly Machi",
+    "dailyActiveHours": {
+      "start": "07:00",
+      "end": "23:00"
+    },
+    "notificationsEnabled": true,
+    "soundEnabled": true,
+    "theme": "dark",
+    "timezone": "Asia/Kolkata"
+  },
+  "rewards": {
+    "points": 150,
+    "currentStreak": 4,
+    "longestStreak": 7,
+    "lastCheckInDate": "2026-11-01",
+    "level": 2,
+    "levelTitle": "Momentum Builder",
+    "claimedPerks": [
+      "focus_soundtrack"
+    ]
+  },
+  "achievements": [
+    {
+      "id": "first_task",
+      "title": "Ignition",
+      "description": "Completed your very first task in Taskora",
+      "icon": "Zap",
+      "points": 20,
+      "isUnlocked": true,
+      "unlockedAt": "2026-10-28T09:00:00Z"
+    },
+    {
+      "id": "streak_3",
+      "title": "3-Day Dynamo",
+      "description": "Maintained a productive streak for 3 consecutive days",
+      "icon": "Flame",
+      "points": 30,
+      "isUnlocked": true,
+      "unlockedAt": "2026-10-31T18:00:00Z"
+    },
+    {
+      "id": "future_architect",
+      "title": "Future Architect",
+      "description": "Scheduled an important task more than 2 months in advance",
+      "icon": "CalendarClock",
+      "points": 40,
+      "isUnlocked": true,
+      "unlockedAt": "2026-11-01T08:00:00Z"
+    },
+    {
+      "id": "ai_collaborator",
+      "title": "Machi Bond",
+      "description": "Extracted and scheduled tasks directly using Taskora AI",
+      "icon": "Bot",
+      "points": 25,
+      "isUnlocked": false,
+      "progress": 1,
+      "maxProgress": 3
+    },
+    {
+      "id": "century_club",
+      "title": "Centurion",
+      "description": "Accumulated over 100 productivity reward points",
+      "icon": "Award",
+      "points": 50,
+      "isUnlocked": true,
+      "unlockedAt": "2026-10-31T18:00:00Z"
+    },
+    {
+      "id": "master_planner",
+      "title": "Goal Conqueror",
+      "description": "Generated a full multi-month goal roadmap with Taskora Planner",
+      "icon": "Compass",
+      "points": 50,
+      "isUnlocked": false,
+      "progress": 0,
+      "maxProgress": 1
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_welcome",
+      "taskId": "task_1",
+      "taskTitle": "College Project Submission",
+      "message": "Advance reminder: 2 months remaining until College Project Submission deadline!",
+      "scheduledAt": "2026-11-01T08:00:00Z",
+      "triggeredAt": "2026-11-01T08:00:00Z",
+      "read": false,
+      "priority": "Critical"
+    }
+  ],
+  "chatHistory": [
+    {
+      "id": "msg_1",
+      "sender": "assistant",
+      "text": "Vanakkam Mohanraj! Welcome back to TASKORA. Today is Sunday, Nov 1, 2026. Enna plan innaiku? Nee sollu, task planning naan pathukuren machi! 🚀",
+      "timestamp": "2026-11-01T16:13:52.815Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_1793549699924_rec",
+      "title": "Gym - Upper Body Workout",
+      "description": "Bench press, pullups, shoulder press, core training.",
+      "startDate": "2026-11-01",
+      "startTime": "18:00",
+      "deadlineDate": "2026-11-01",
+      "deadlineTime": "19:30",
+      "category": "Fitness",
+      "priority": "Medium",
+      "status": "Pending",
+      "notes": "Track weights in logbook.",
+      "subtasks": [],
+      "pointsValue": 15,
+      "recurrence": {
+        "type": "custom",
+        "interval": 2,
+        "daysOfWeek": [
+          1,
+          3,
+          5
+        ]
+      },
+      "createdAt": "2026-11-01T16:14:59.924Z",
+      "updatedAt": "2026-11-01T16:14:59.924Z",
+      "reminders": [
+        {
+          "id": "rem_1793549699924_0",
+          "preset": "1_hour",
+          "label": "1 hour before (5:00 PM)",
+          "scheduledAt": "2026-11-01T18:30:00.000Z",
+          "delivered": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "task_1",
+      "title": "College Project Submission",
+      "description": "Final year capstone submission with comprehensive documentation, demo video, and code repository link.",
+      "startDate": "2026-11-01",
+      "startTime": "09:00",
+      "deadlineDate": "2027-01-01",
+      "deadlineTime": "17:00",
+      "category": "Education",
+      "priority": "Critical",
+      "status": "In Progress",
+      "notes": "Review submission guidelines with HOD and verify database migrations.",
+      "subtasks": [
+        {
+          "id": "sub_1",
+          "title": "Complete system architecture diagram",
+          "completed": true
+        },
+        {
+          "id": "sub_2",
+          "title": "Record 5-minute video presentation",
+          "completed": false
+        },
+        {
+          "id": "sub_3",
+          "title": "Final test report binding",
+          "completed": false
+        }
+      ],
+      "pointsValue": 25,
+      "recurrence": {
+        "type": "none"
+      },
+      "createdAt": "2026-11-01T07:30:00Z",
+      "updatedAt": "2026-11-01T07:30:00Z",
+      "reminders": [
+        {
+          "id": "rem_1_1",
+          "preset": "1_month",
+          "label": "1 month before (Dec 1, 2026)",
+          "scheduledAt": "2026-12-01T17:00:00Z",
+          "delivered": false,
+          "status": "pending"
+        },
+        {
+          "id": "rem_1_2",
+          "preset": "1_week",
+          "label": "1 week before (Dec 25, 2026)",
+          "scheduledAt": "2026-12-25T17:00:00Z",
+          "delivered": false,
+          "status": "pending"
+        },
+        {
+          "id": "rem_1_3",
+          "preset": "1_day",
+          "label": "1 day before (Dec 31, 2026)",
+          "scheduledAt": "2026-12-31T17:00:00Z",
+          "delivered": false,
+          "status": "pending"
+        },
+        {
+          "id": "rem_1_4",
+          "preset": "30_mins",
+          "label": "30 minutes before (Jan 1, 2027 4:30 PM)",
+          "scheduledAt": "2027-01-01T16:30:00Z",
+          "delivered": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "task_2",
+      "title": "Daily Java & DSA Practice",
+      "description": "Solve 2 LeetCode problems and revise Spring Boot fundamentals.",
+      "startDate": "2026-11-01",
+      "startTime": "07:00",
+      "deadlineDate": "2026-11-01",
+      "deadlineTime": "08:30",
+      "category": "Education",
+      "priority": "High",
+      "status": "Completed",
+      "completedAt": "2026-11-01T08:15:00Z",
+      "notes": "Solved Binary Tree Inorder & Level Order traversal.",
+      "subtasks": [
+        {
+          "id": "sub_4",
+          "title": "Problem 1: Binary Tree Inorder",
+          "completed": true
+        },
+        {
+          "id": "sub_5",
+          "title": "Problem 2: Level Order Traversal",
+          "completed": true
+        }
+      ],
+      "pointsValue": 20,
+      "recurrence": {
+        "type": "daily"
+      },
+      "createdAt": "2026-10-31T20:00:00Z",
+      "updatedAt": "2026-11-01T08:15:00Z",
+      "reminders": [
+        {
+          "id": "rem_2_1",
+          "preset": "30_mins",
+          "label": "30 minutes before (6:30 AM)",
+          "scheduledAt": "2026-11-01T06:30:00Z",
+          "delivered": true,
+          "status": "delivered"
+        }
+      ]
+    },
+    {
+      "id": "task_3",
+      "title": "Semester Examination Preparation",
+      "description": "Complete 5 model question papers for Advanced DBMS and AI algorithms.",
+      "startDate": "2026-11-10",
+      "startTime": "10:00",
+      "deadlineDate": "2027-01-15",
+      "deadlineTime": "09:00",
+      "category": "Education",
+      "priority": "Critical",
+      "status": "Pending",
+      "notes": "Targeting CGPA > 9.0",
+      "subtasks": [
+        {
+          "id": "sub_6",
+          "title": "Unit 1 & 2 revision",
+          "completed": false
+        },
+        {
+          "id": "sub_7",
+          "title": "Solve 2024 & 2025 question papers",
+          "completed": false
+        }
+      ],
+      "pointsValue": 25,
+      "recurrence": {
+        "type": "none"
+      },
+      "createdAt": "2026-11-01T07:45:00Z",
+      "updatedAt": "2026-11-01T07:45:00Z",
+      "reminders": [
+        {
+          "id": "rem_3_1",
+          "preset": "2_months",
+          "label": "2 months before (Nov 15, 2026)",
+          "scheduledAt": "2026-11-15T09:00:00Z",
+          "delivered": false,
+          "status": "pending"
+        },
+        {
+          "id": "rem_3_2",
+          "preset": "2_weeks",
+          "label": "2 weeks before (Jan 1, 2027)",
+          "scheduledAt": "2027-01-01T09:00:00Z",
+          "delivered": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "task_4",
+      "title": "Google Summer of Code Application",
+      "description": "Prepare organization proposal draft and submit early contribution PRs.",
+      "startDate": "2027-02-01",
+      "startTime": "10:00",
+      "deadlineDate": "2027-04-01",
+      "deadlineTime": "18:00",
+      "category": "Career",
+      "priority": "High",
+      "status": "Pending",
+      "notes": "Shortlist 3 organizations in ML and Web infra.",
+      "subtasks": [],
+      "pointsValue": 20,
+      "recurrence": {
+        "type": "none"
+      },
+      "createdAt": "2026-11-01T07:50:00Z",
+      "updatedAt": "2026-11-01T07:50:00Z",
+      "reminders": [
+        {
+          "id": "rem_4_1",
+          "preset": "3_months",
+          "label": "3 months before (Jan 1, 2027)",
+          "scheduledAt": "2027-01-01T18:00:00Z",
+          "delivered": false,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "task_5",
+      "title": "Gym - Upper Body Workout",
+      "description": "Bench press, pullups, shoulder press, core training.",
+      "startDate": "2026-11-01",
+      "startTime": "18:00",
+      "deadlineDate": "2026-11-01",
+      "deadlineTime": "19:30",
+      "category": "Fitness",
+      "priority": "Medium",
+      "status": "Completed",
+      "notes": "Track weights in logbook.",
+      "subtasks": [],
+      "pointsValue": 15,
+      "recurrence": {
+        "type": "custom",
+        "interval": 2,
+        "daysOfWeek": [
+          1,
+          3,
+          5
+        ]
+      },
+      "createdAt": "2026-11-01T07:55:00Z",
+      "updatedAt": "2026-11-01T16:14:59.924Z",
+      "reminders": [
+        {
+          "id": "rem_5_1",
+          "preset": "1_hour",
+          "label": "1 hour before (5:00 PM)",
+          "scheduledAt": "2026-11-01T17:00:00Z",
+          "delivered": false,
+          "status": "dismissed"
+        }
+      ],
+      "completedAt": "2026-11-01T16:14:59.923Z"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "TASKORA",
+  "description": "Plan Smart. Do More. Earn More. AI-powered productivity companion with future planning, advance reminders, Tanglish/English AI companion, and rewards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
